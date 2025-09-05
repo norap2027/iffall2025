@@ -1,0 +1,33 @@
+.format{
+    font-family: "polymath", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align:center;
+    padding-top:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+    color:azure
+}
+h1{
+    font-size:42px
+}
+iframe{
+    padding-top: 50px;
+    width: 1000px;
+    height: 300px;
+    border-color: transparent
+}
+main{
+    font-size: 20px
+}
+h3{
+    color:rgb(249, 178, 217);
+    padding-top: 30px
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+

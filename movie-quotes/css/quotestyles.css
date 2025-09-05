@@ -1,0 +1,33 @@
+h1{
+    color:green
+}
+
+.indent{
+    padding-left:30px
+}
+
+.font{
+    font-family:'Courier New', Courier, monospace
+}
+
+.DRPV{
+    color:blue
+}
+.DB{
+    color:blueviolet
+}
+.Mayor{
+    color:red
+}
+.DRRS{
+    color:rgb(0, 183, 255)
+}
+.DRES{
+    color:rgb(37, 255, 182)
+}
+.WZ{
+    color:orange
+}
+.norm{
+    color:gray
+}

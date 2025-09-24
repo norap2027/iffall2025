@@ -1,0 +1,42 @@
+html{
+    font-family: "polymath", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:18px;
+    padding-top:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+  .flex-container {
+    display: flex; /* Enables Flexbox layout */
+    gap: 20px; /* Adds space between columns */
+  }
+
+  .column-one,
+  .column-two {
+    flex: 1; /* Makes columns share available space equally */
+    padding: 15px;
+  }
+strong{
+    font-weight:900;
+    color:green;
+}
+a{
+  color:rgb(163, 12, 12);
+}
+img{
+  width:32%;
+  height:20rem;
+  border-radius: 30px;
+  margin-right:15px;
+  object-fit: cover;
+    object-position: left center;
+}
+footer{
+  margin-top:40px;
+  margin-bottom:40px;
+  font-size:12px;
+  text-align:center;
+}

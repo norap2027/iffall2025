@@ -1,0 +1,206 @@
+a#btn_apple {
+    font-size:0;
+	display: inline-block;
+    background-image: url(../images/Apple-Logosu.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:200px;
+    width:200px;
+}
+
+a#btn_apple:hover {
+    margin-top:63px;
+	background-image: url(../images/250-2508971_clipart-bitmap-apple-logo-outline-vector.png);
+    height:108px;
+    width:108px;
+}
+a#btn_hasbro {
+    font-size:0;
+    margin-top:30px;
+	display: inline-block;
+    background-image: url(../images/Hasbro_logo.svg.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:160px;
+    width:160px;
+}
+
+@keyframes wiggle {
+  from { transform: rotate(-7deg); }
+  33% { transform: rotate(4deg); }
+  66% { transform: rotate(-4deg); }
+  to { transform: rotate(7deg); }
+}
+
+a#btn_hasbro:hover {
+    animation-name: wiggle;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+a#btn_lyft {
+    font-size:0;
+    margin-top:22px;
+	display: inline-block;
+    background-image: url(../images/Lyft-Logo-PNG-HD-Isolated.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:200px;
+    width:200px;
+    transition: all .3s;
+}
+
+a#btn_lyft:hover {
+    margin-top:63px;
+	background-image: url(../images/Lyft-Logo.png);
+    height:130px;
+    width:130px;
+    border-radius:10px;
+    box-shadow: inset 0 0 8px #ff00c8;
+}
+
+a#btn_colorrun {
+    position: relative;
+	display: inline-block;
+    font-size:0;
+    margin-top:22px;
+    background-image: url(../images/color-run-logo-png-1-e1457346045490.png);
+    background-color:black;
+    background-size: 350px 180px;
+    background-repeat:no-repeat;
+    background-position: right;
+    height:180px;
+    width:180px;
+    transition: all 0.5s ease;
+}
+a#btn_colorrun:hover {
+    background-size: 170px 120px;
+}
+
+a#btn_moo {
+    position: relative;
+	display: inline-block;
+    font-size:0;
+    margin-top:60px;
+    background-image: url(../images/MOO_Logo_Hero-Green_RGB.png);
+    background-size: 170px 60px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:120px;
+    width:180px;
+    transition: all 0.3s ease;
+}
+
+a#btn_moo:hover {
+    border-radius: 15px;
+    border:5px solid rgb(30, 120, 90);
+}
+
+a#btn_mollyjogger {
+    position: relative;
+	display: inline-block;
+    font-size:0;
+    margin-top:60px;
+    background-image: url(../images/mollyjogger.png);
+    background-size: 250px 50px;
+    background-repeat:no-repeat;
+    background-position: left;
+    height:120px;
+    width:125px;
+    transition: all 0.3s ease;
+}
+
+a#btn_mollyjogger:hover{
+    width:250px;
+}
+
+a#btn_instagram {
+    font-size:0;
+    margin-top:22px;
+	display: inline-block;
+    background-image: url(../images/Instagram-Emblem.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:200px;
+    width:200px;
+}
+
+a#btn_instagram::before {
+  content: '';
+  display:inline-block;
+    margin-top:35px;
+    height:130px;
+    width:130px;
+  background-image: url(../images/Instagram_logo_2016.png);
+  background-size: contain;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+a#btn_instagram:hover::before {
+    opacity: 1;
+}
+
+a#btn_electrabike {
+    font-size:0;
+    margin-top:22px;
+	display: inline-block;
+    background-image: url(../images/Electra-logo-16copy.png);
+    background-size: 190px 70px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:200px;
+    width:200px;
+    transition: height 0.5s ease, margin-top 0.5s ease;
+}
+
+a#btn_electrabike:hover {
+    filter:invert(100%);
+    background-color:rgb(255, 74, 74);
+    height:80px;
+    margin-top:81px;
+}
+
+a#btn_cartoonnetwork {
+    position: relative;
+	display: inline-block;
+    font-size:0;
+    margin-top:60px;
+    background-image: url(../images/Cartoon_Network_2010_logo.png);
+    background-size: 200px 120px;
+    background-repeat:no-repeat;
+    background-position: top;
+    height:100px;
+    width:200px;
+    transition: all 0.5s ease;
+}
+
+a#btn_cartoonnetwork:hover{
+    height:120px;
+}
+
+a#btn_ibm {
+    position: relative;
+	display: inline-block;
+    font-size:0;
+    margin-top:68px;
+    background-image: url(../images/Color-IBM-Logo.jpg);
+    background-size: 280px 200px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:80px;
+    width:160px;
+    transition: width 0.4s ease;
+}
+
+a#btn_ibm:hover{
+    margin-top:6px;
+    height:180px;
+    width:250px;
+}

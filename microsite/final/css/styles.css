@@ -1,0 +1,649 @@
+
+/* general formatting --> */
+
+html{
+    color:white;
+    overflow-x: hidden;
+}
+body{
+    margin:auto;
+}
+a{
+    font-family: helvetica-neue-lt-pro-cond, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    z-index: 9999;
+}
+section.backing{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top:60px;
+    width:100vw;
+    height:100vh;
+    margin:auto;
+    position:relative;
+}
+.header_light{
+    font-family: polymath-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:80px;
+    width:1000px;
+    line-height:1;
+}
+.header_heavy{
+    font-family: helvetica-neue-lt-pro-cond, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:80px;
+    text-shadow:0 0 20px rgb(255, 255, 255);
+}
+.light_banner{
+    background-color: rgb(255, 148, 0, 0.6);
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    width:100%;
+}
+h3{
+    font-weight:300;
+    font-family: polymath-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:80px;
+    width:1000px;
+    line-height:1;
+}
+.light_banner_head{
+    background-color: rgb(255, 148, 0, 0.6);
+    top:0;
+    left:0;
+    margin:auto;
+    position:absolute;
+    margin-top:250px;
+    padding-bottom:40px;
+    margin-bottom:0px;
+    width:100%;
+}
+.header_center{
+    margin:auto;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:50px;
+    text-align:center;
+    font-weight:300;
+}
+.center{
+    width:700px;
+    font-family: polymath-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:18px;
+}
+.header_left{
+    padding-left: 50px;
+    padding-top:160px;
+    margin-bottom:40px;
+    font-weight:300;
+}
+.left{
+    padding-left: 50px;
+    width:520px;
+    font-family: polymath-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+}
+
+/* top banner --> */
+
+@media (max-width:640px){
+.banner{
+    background-color: rgb(255, 148, 0);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:120px;
+    z-index: 9999;
+    padding-left:0px;
+}
+.button_container{
+    width:13%;
+}
+.banner a{
+    font-size:14px;
+}
+
+}
+.banner{
+    padding-left:20px;
+    z-index:9999;
+    position:absolute;
+}
+header a{
+    padding-top:25px;
+    display:inline-block;
+    font-size:25px;
+}
+.banner a:hover{
+    color: rgb(255, 148, 0, 0.8);
+}
+.button_container img{
+    width:60px;
+    height:60px;
+    padding-top:10px;
+}
+.button_container{
+    margin: 10px 10px 10px 10px;
+	padding: 15px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+.selected{
+    color: rgb(255, 148, 0);
+    text-shadow:0 0 20px rgb(255, 255, 255);
+}
+
+@media (max-width:640px){
+    .banner a:hover{
+    color: rgb(33, 143, 254, 0.8);
+}
+.selected{
+    color: rgb(33, 143, 254);
+    text-shadow:0 0 20px rgb(255, 255, 255);
+}
+.banner img{
+    width:40px;
+    height:40px;
+}
+}
+/* home landing --> */
+
+.backing a:hover{
+    color: rgb(255, 148, 0);
+    background-color: rgb(255, 255, 255,0.7);
+}
+
+section.landing{
+    background-image:url(../images/overwatch\ images/landing.jpg.webp);
+}
+
+.landing a#btn_story{
+    margin-left: 55px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border:1px solid rgb(255, 255, 255);
+}
+.landing .header_light{
+    padding-left: 50px;
+    padding-top:160px;
+    margin-bottom:40px;
+}
+
+.landing .light_banner{
+    position:absolute;
+    margin-bottom:0px;
+    bottom:0;
+    height:160px;
+}
+
+section.landing ul{
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    width:95%;
+    padding-left:0;
+}
+section.landing aside{
+    width:100%;
+    margin: 1vh 3.5vw 1vh 1.5vw;
+}
+section.landing-items{
+    display:block;
+}
+section.landing li{
+    font-size:0;
+    width:19%;
+}
+.head{
+    font-family: polymath-text, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    margin-bottom:10px;
+    margin-top:25px;
+}
+.category{
+    font-family: polymath-text, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:13px;
+    line-height:0.8rem;
+}
+.year{
+    font-family: polymath-text, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:13px;
+    line-height:1rem;
+}
+
+/* landing character --> */
+
+section.landing_char{
+    background-image:url(../images/overwatch\ images/characters.jpg);
+}
+.landing_char div{
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+.landing_char a#btn_char{
+    border-radius: 5px;
+    border:1px solid rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+}
+.landing_char p{
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:300px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/* landing about --> */
+
+section.landing_about{
+    background-image:url(../images/overwatch\ images/about.jpg);
+    background-position: top;
+    height:890px;
+    padding-top:0px;
+}
+.landing_about .light_banner{
+    margin-top:0px;
+    height:120px;
+    position:relative;
+}
+.landing_about a#btn_about{
+    border-radius: 5px;
+    border:1px solid rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    margin-right:4.5vw;
+}
+.landing_about .header_light{
+    margin:auto;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:28px;
+    text-align:center;
+    font-size:70px;
+}
+.landing_about .des{
+    font-family: polymath-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:right;
+    width:35%;
+    margin-left:60vw;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+.landing_about div:nth-child(2){
+    text-align:right;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/* footer --> */
+
+footer{
+    position:relative;
+    bottom:0;
+    margin-top:100px;
+}
+footer .banner{
+    background-color: rgb(0, 0, 0);
+    height:100px;
+    margin-bottom:0px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+footer img{
+    display:block;
+    text-align:center;
+    width:70px;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:0px;
+}
+footer p{
+    margin-bottom:0px;
+    margin-top:5px;
+    font-family: polymath-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:10rem;
+    text-align:center;
+    font-size:10px;
+}
+
+@media (max-width:640px){
+footer{
+    margin-top:0;
+}
+}
+
+/* character landing --> */
+
+section.characters{
+    background-image:url(../images/overwatch\ images/reaper-skins-overwatch-2.jpg);
+}
+
+/* tank landing --> */
+
+section.tanks{
+    background-image:url(../images/overwatch\ images/Doomfist_ban.jpg);
+}
+.tanks p{
+    width:450px;
+}
+
+@media (max-width:640px){
+section.tanks{
+    background-position:-1550px;
+}
+}
+
+/* damage landing --> */
+
+section.damage{
+    background-image:url(../images/overwatch\ images/Pharah_ban.jpg);
+}
+.damage p{
+    width:400px;
+}
+@media (max-width:640px){
+section.damage{
+    background-position:-1450px;
+}
+}
+
+/* support landing --> */
+
+section.support{
+    background-image:url(../images/overwatch\ images/Zenyatta_ban.jpg);
+}
+.support p{
+    width:450px;
+}
+@media (max-width:640px){
+section.support{
+    background-position:-1450px;
+}
+}
+
+/* character grid --> */
+
+section.character-grid{
+    background-color: rgb(33, 143, 254);
+    padding-top:60px;
+    width:100%;
+    margin:auto;
+    position:relative;
+    padding-bottom:40px;
+}
+section.character-grid ul{
+    display:flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    padding-bottom:50px;
+    padding-top:10px;
+    margin-bottom:0px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+section.character-grid aside{
+    width:200px;
+    margin: 2vh 1.5vw;
+    background-color: rgb(255, 148, 0);
+    border-radius:8px;
+    border:4px solid rgb(255, 148, 0);
+}
+section.character-grid-items{
+    display:block;
+}
+section.character-grid li{
+    font-size:0;
+    z-index: 9999;
+}
+section.character-grid img{
+    width:200px;
+    height:200px;
+    border-radius:8px;
+    background-color:rgb(35, 32, 32);
+    z-index: 9999;
+}
+section.character-grid li:hover{
+    transform: scale(1.05);
+}
+.character-grid .title{
+    font-size:20px;
+}
+
+/* story landing --> */
+
+section.story{
+    background-image:url(../images/overwatch\ images/story.jpg);
+}
+
+/* locations landing --> */
+
+section.locations{
+    background-image:url(../images/overwatch\ images/maps.jpg.webp);
+    background-position: top;
+    height:830px;
+}
+.locations .light_banner{
+    height:200px;
+    top:auto;
+}
+.locations h3{
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:260px;
+    margin-bottom:320px;
+    text-align:center;
+}
+section.locations ul{
+    display:flex;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    padding-bottom:18px;
+    padding-top:20px;
+    justify-content: center;
+}
+section.locations aside{
+    margin: 2vh 7vw;
+}
+section.locations-items{
+    display:block;
+}
+section.locations li{
+    font-size:0;
+}
+section.locations img{
+    width:50px;
+    height:50px;
+    display:inline-block;
+}
+.keys{
+    font-family: polymath-text, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:18px;
+    text-align:center;
+}
+
+/* maps --> */
+
+section.location-grid{
+    background-color: rgb(33, 143, 254);
+    padding-top:60px;
+    width:100%;
+    padding-bottom:60px;
+    margin:auto;
+    position:relative;
+}
+section.location-grid ul{
+    display:flex;
+    flex-wrap: wrap;
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    padding-bottom:40px;
+    padding-top:10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+section.location-grid aside{
+    width:25rem;
+    margin: 2vh 1vw;
+    background-color: rgb(255, 148, 0);
+    border-radius:8px;
+    border:4px solid rgb(255, 148, 0);
+}
+section.location-grid-items{
+    display:block;
+}
+section.location-grid li{
+    font-size:0;
+    z-index: 9999;
+}
+section.location-grid img{
+    width:400px;
+    height:250px;
+    border-radius:8px;
+}
+.location-grid .title{
+    font-size:20px;
+    text-transform: uppercase;
+}
+section.location-grid li:hover{
+    transform: scale(1.05);
+}
+
+/* how to landing --> */
+
+section.gameplay{
+    background-image:url(../images/overwatch\ images/gameplay.jpg.avif);
+}
+
+/* quick play modes --> */
+
+section.play-modes{
+    background-image:url(../images/overwatch\ images/modes.jpg);
+}
+.play-modes .light_banner{
+    position:absolute;
+    margin-bottom:0px;
+    bottom:0;
+    height:40vh;
+    padding-bottom:8rem;
+}
+.play-modes h3{
+    width:650px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:180px;
+    margin-bottom:140px;
+    text-align:center;
+}
+section.play-modes ul{
+    display:flex;
+    text-align:center;
+    padding-bottom:60px;
+    padding-top:12px;
+    justify-content: center;
+    padding-left: 0;
+}
+section.play-modes aside{
+    width:90%;
+    margin: 20px 30px 10px 10px;
+}
+section.play-modes-items{
+    display:block;
+}
+section.play-modes li{
+    font-size:0;
+    width:19%;
+}
+.title{
+    font-family: helvetica-neue-lt-pro-cond, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18px;
+}
+.mode{
+    font-family: polymath-text, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:14px;
+    text-align:left;
+}
+
+@media (max-width:640px){
+.mode{
+    font-size:10px;
+}
+section.play-modes ul{
+    padding-top:0;
+}    
+}
+
+/* about landing --> */
+
+section.about{
+    background-image:url(../images/overwatch\ images/about-us-landing2.jpg);
+}
+
+/* about development --> */
+
+section.development{
+    background-image:url(../images/overwatch\ images/about2.jpeg);
+    height:850px;
+}
+.development .light_banner_head{
+    margin-top:180px;
+}
+
